@@ -9,4 +9,8 @@ db.on('open', function(callback) {
 
 });
 
+db.on('close', function(callback) {
+  console.log('db closed');
+});
+
 module.exports = db;
