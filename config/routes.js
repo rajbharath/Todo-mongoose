@@ -15,6 +15,16 @@ var Routes = [
     path: '/todos/{id}',
     method: 'PUT',
     handler: TodosHandler.update
+  },
+  {
+    path: '/todos/{id}',
+    method: 'DELETE',
+    handler: TodosHandler.delete
+  },
+  {
+    path: '/todos/{id}',
+    method: 'GET',
+    handler: TodosHandler.get
   }
 ];
 
