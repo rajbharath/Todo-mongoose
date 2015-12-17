@@ -11,7 +11,3 @@ server.route(Routes);
 server.start(function() {
   console.log('server listening at port ' + server.info.uri);
 });
-
-server.stop(function() {
-  db.close();
-});
